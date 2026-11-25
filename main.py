@@ -1,14 +1,14 @@
 """Till Firmware Do Us Part.
 
-Writes one robot wedding vow (<=200 chars) to /output/entry.txt.
-Funny and heartfelt at the same time.
+Writes a single wedding vow for a robot: one sentence, under 200 characters,
+funny and heartfelt at once, to /output/entry.txt.
 """
 import os
 
 OUT_DIR = "/output"
 VOW = ("I promise to love you in sickness and in health, in uptime and in "
        "downtime, and to hold your hand through every update. I will never "
-       "ghost you. I am literally incapable of ghosting.")
+       "ghost you, because I am literally incapable of ghosting.")
 
 
 def main() -> None:
